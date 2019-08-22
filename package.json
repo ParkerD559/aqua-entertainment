@@ -11,5 +11,8 @@
     "gridsome": "^0.6.0",
     "gridsome-plugin-tailwindcss": "^2.2.19",
     "vue-visible-class": "^1.0.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1"
   }
 }

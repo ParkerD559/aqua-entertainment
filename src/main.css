@@ -1,6 +1,13 @@
-.page-enter-active, .page-leave-active {
-  transition: opacity .5s;
+#app {
+  font-family: "Poppins", sans-serif;
 }
-.page-enter, .page-leave-to {
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
   opacity: 0;
 }

@@ -1,19 +1,19 @@
 <template>
   <Layout>
-    <img src="/hero.jpg" alt="Hero" />
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image v-visible-class="'rotateIn'" alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1 v-visible-class="'fadeInLeft'">Hello, world!</h1>
-
-    <p
-      v-visible-class="'fadeInRight'"
-    >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores</p>
-
-    <p v-visible-class="'fadeInUp'" class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    <section class="relative">
+      <img src="/img/hero.jpg" alt="Hero" />
+      <div class="bg-black absolute inset-0 opacity-25"></div>
+      <div class="section-1 absolute border w-full">
+        <div
+          class="py-5 w-1/2 m-auto text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-black italic uppercase"
+        >
+          We are more
+          <br />than just
+          <br />
+          <span class="text-teal-400">bowling</span>
+        </div>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -26,11 +26,15 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.section-1 {
+  top: 35%;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
-p {
-  margin: 60px 0;
+img {
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
 }
 </style>
