@@ -20,7 +20,7 @@
         v-visible-class="'fadeInDown'"
         class="md:block container mx-auto"
       >
-        <ul class="w-full pb-10 md:py-10">
+        <ul class="w-full pb-10 md:py-10 ml-5">
           <li class="md:text-center md:inline-block my-auto md:w-1/5">Eat & Drink</li>
           <li class="md:text-center md:inline-block my-auto md:w-1/5">Parties & Events</li>
           <li class="hidden md:text-center md:inline-block my-auto md:w-1/5">Logo</li>
