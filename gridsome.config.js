@@ -8,7 +8,10 @@ module.exports = {
   siteName: "Aqua Entertainment",
   plugins: [
     {
-      use: "gridsome-plugin-tailwindcss"
+      use: "gridsome-plugin-tailwindcss",
+      options: {
+        shouldPurge: false
+      }
     }
   ]
 };
