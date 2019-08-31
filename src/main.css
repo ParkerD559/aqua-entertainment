@@ -3,12 +3,45 @@
   background: #2d0413;
 }
 
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.5s;
+@media (min-width: 768px) {
+  ._index-hero {
+    background-image: url(/img/hero.jpg);
+  }
+}
+@media (max-width: 768px) {
+  ._index-hero {
+    background-image: url(/img/mobile-hero.jpg);
+  }
+}
+._attractions-hero {
+  background-image: url(/img/hero-attractions.jpg);
+}
+._events-hero {
+  background-image: url(/img/hero-events.jpg);
+}
+._leagues-hero {
+  background-image: url(/img/hero-leagues.jpg);
+}
+._refreshments-hero {
+  background-image: url(/img/hero-refreshments.jpg);
+}
+._hero {
+  background-position: center;
 }
 
-.page-enter,
-.page-leave-to {
-  opacity: 0;
+._title-text {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+._mobile-book-event {
+  background: linear-gradient(#000000cc, #2d0413 55%);
+}
+
+._hero ._hero-container {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
