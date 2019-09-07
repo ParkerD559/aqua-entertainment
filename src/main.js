@@ -9,6 +9,12 @@ import DefaultLayout from "~/layouts/Default.vue";
 export default function(Vue, { appOptions, router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
 
+  Vue.prototype.$socialLinks = {
+    facebook: "https://www.facebook.com/aquaentertainmentcenter/",
+    instagram: "https://www.instagram.com/aquacenter_ent/",
+    yelp: "https://www.yelp.com/biz/aqua-entertainment-center-los-banos"
+  };
+
   // Add an external CSS file
   head.link.push({
     rel: "stylesheet",

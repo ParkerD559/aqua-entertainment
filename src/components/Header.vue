@@ -3,10 +3,13 @@
     <div class="hidden lg:block bg-black">
       <div class="py-2 container flex mx-auto">
         <div class="flex items-center ml-auto px-3">
-          <i class="fab fa-facebook-square"></i>
+          <social-icon name="facebook" icon="fab fa-facebook-square" />
         </div>
         <div class="flex items-center px-3">
-          <i class="fab fa-instagram"></i>
+          <social-icon name="instagram" icon="fab fa-instagram" />
+        </div>
+        <div class="flex items-center px-3">
+          <social-icon name="yelp" icon="fab fa-yelp" />
         </div>
         <button class="ml-5 px-3 border-2 hover:bg-gray-800">Book an Event</button>
       </div>
@@ -49,7 +52,11 @@
 </template>
 
 <script>
+import SocialIcon from "~/components/SocialIcon.vue";
 export default {
+  components: {
+    SocialIcon
+  },
   data() {
     return {
       navOpen: false

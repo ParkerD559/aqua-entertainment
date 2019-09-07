@@ -13,16 +13,28 @@
     <div class="_bottom-foot py-10">
       <div class="flex text-3xl">
         <div class="flex items-center ml-auto px-3">
-          <i class="fab fa-facebook-square"></i>
+          <social-icon name="facebook" icon="fab fa-facebook-square" />
+        </div>
+        <div class="flex items-center px-3">
+          <social-icon name="instagram" icon="fab fa-instagram" />
         </div>
         <div class="flex items-center mr-auto px-3">
-          <i class="fab fa-instagram"></i>
+          <social-icon name="yelp" icon="fab fa-yelp" />
         </div>
       </div>
       <div class="text-xs text-center pt-10">Copyright Aqua Entertainment 2019 All Rights Reserved</div>
     </div>
   </div>
 </template>
+
+<script>
+import SocialIcon from "~/components/SocialIcon.vue";
+export default {
+  components: {
+    SocialIcon
+  }
+};
+</script>
 
 <style>
 ._top-foot {
