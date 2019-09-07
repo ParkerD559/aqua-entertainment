@@ -1,5 +1,5 @@
 <template>
-  <section class="_hero relative bg-cover h-screen w-screen mb-10">
+  <section class="_hero relative bg-cover h-screen w-full mb-10">
     <background-image :img="img" />
     <div class="_hero-container text-center container px-10">
       <div class="text-4xl sm:text-7xl lg:text-10xl font-bold uppercase">
