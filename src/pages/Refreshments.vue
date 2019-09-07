@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHero class="_refreshments-hero">
+    <PageHero img="img/hero-refreshments.jpg">
       <div slot="title">Eat & Drink</div>
       <div slot="text">
         Come and check out our selection of food, snacks, and tap beer.

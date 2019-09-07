@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHero class="_attractions-hero">
+    <PageHero img="img/hero-attractions.jpg">
       <div slot="title">Attractions</div>
       <div slot="text">
         Aqua Entertainment has so much to offer when it comes to having a great time.

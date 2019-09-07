@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHero class="_leagues-hero">
+    <PageHero img="img/hero-leagues.jpg">
       <div slot="title">Leagues</div>
       <div slot="text">
         Want a bowling league of your own or join one of ours.

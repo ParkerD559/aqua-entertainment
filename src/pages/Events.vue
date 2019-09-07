@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <PageHero class="_events-hero">
+    <PageHero img="img/hero-events.jpg">
       <div slot="title">Parties & Events</div>
       <div slot="text">
         Have your next party at Aqua Entertainment. We have so much to enjoy.

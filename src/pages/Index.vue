@@ -1,7 +1,8 @@
 <template>
   <Layout>
-    <section class="_hero _index-hero relative bg-cover h-screen w-screen mb-10">
-      <div class="bg-black absolute z-0 inset-0 opacity-50"></div>
+    <section class="_hero relative bg-cover h-screen w-full mb-10">
+      <background-image class="hidden md:block" img="img/hero.jpg" />
+      <background-image class="md:hidden block" img="img/mobile-hero.jpg" />
       <div class="relative z-10 pt-40 lg:pt-64">
         <div class="_title-text text-5xl sm:text-6xl md:text-8xl border w-full">
           <div class="pl-3 sm:w-500px md:w-700px py-5 m-auto font-black italic uppercase">
@@ -53,12 +54,14 @@
 
 <script>
 import IndexSection from "~/components/IndexSection.vue";
+import BackgroundImage from "~/components/BackgroundImage.vue";
 export default {
   metaInfo: {
     title: ""
   },
   components: {
-    IndexSection
+    IndexSection,
+    BackgroundImage
   }
 };
 </script>
