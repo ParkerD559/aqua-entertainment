@@ -12,6 +12,9 @@ module.exports = {
       options: {
         shouldPurge: false
       }
+    },
+    {
+      use: "@gridsome/plugin-sitemap"
     }
   ]
 };
