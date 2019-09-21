@@ -6,6 +6,9 @@
 
 module.exports = {
   siteName: "Aqua Entertainment",
+  siteDescription:
+    "Aqua Entertainment is a bowling alley located in Los Banos, California. Bowling leagues, events, and refreshments are all available!",
+  siteUrl: "https://www.aquaent.net",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
