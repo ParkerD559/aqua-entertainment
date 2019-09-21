@@ -21,4 +21,9 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     href:
       "https://fonts.googleapis.com/css?family=Poppins:400,700,900,900i&display=swap"
   });
+
+  head.meta.push({
+    name: "google-site-verification",
+    content: "2Vd3WVlEZ3qRKuqeACKxT1IReJz8aumldxxB8sPe4OM"
+  });
 }
