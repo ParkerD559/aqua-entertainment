@@ -11,7 +11,9 @@
         <div class="flex items-center px-3">
           <social-icon name="yelp" icon="fab fa-yelp" />
         </div>
-        <button class="ml-5 px-3 border-2 hover:bg-gray-800">Book an Event</button>
+        <a target="_blank" href="https://calendly.com/aquaentertainment">
+          <button class="ml-5 px-3 border-2 hover:bg-gray-800">Book an Event</button>
+        </a>
       </div>
     </div>
     <div class="bg-teal-700 bg-faded text-2xl font-bold uppercase fixed lg:absolute z-50 inset-x-0">
